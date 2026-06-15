@@ -1,0 +1,6 @@
+{
+  "name": "Makeup Artist Portfolio",
+  "description": "A luxury, highly customizable single-page portfolio for a professional makeup artist and educator, with WhatsApp booking integration and live content editor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

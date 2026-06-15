@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-sans: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar and ambient animation support */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: rgba(217, 119, 6, 0.2);
+  color: inherit;
+}
+
+/* Custom fade effects and story progress bar simulation */
+@keyframes storyProgress {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+.story-progress-active {
+  animation: storyProgress 5000ms linear forwards;
+}
+
